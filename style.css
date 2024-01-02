@@ -1,0 +1,366 @@
+/* Navigation Bar */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+  width: 100%;
+  background-color: #F3F3F3;
+  height: 80px;
+  top: 0px;
+  position: fixed;
+  box-shadow: 5px 5px 15px  rgba(0, 0,0, 0.63);
+  z-index: 11;
+}
+.Navbar{
+  width: 600px;
+  height: 30px;
+  position: absolute;
+  background-color: #F3F3F3;
+  top: 30px;
+  left: 600px;
+  display: inline;
+}
+.Navbar a{
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(94, 158, 61);;
+  margin-left: 20px;
+  background-color: #F3F3F3;
+  padding: 10px 20px;
+ 
+}
+
+.Navbar a:hover{
+  background-color: rgb(94, 158, 61);
+  color: #F3F3F3;
+  padding: 10px 15px;
+  border-radius: 20px 0px 20px 0px;
+}
+
+/* Cover Section */
+
+.Cover{
+  width: 100%;
+  background-image: url(Img/hero.jpg);
+  background-image:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /*padding-top: 70px;*/
+  margin-top:5px;
+  height: 100vh;
+ 
+}
+ 
+
+    
+
+marquee{
+  width: 100%;
+  margin-top: 300px;
+  color: white;
+  text-align: center;
+  animation: tada;
+  animation-duration: 2s;
+  text-transform: uppercase;
+}
+
+/*  Emoji Details */
+
+.Emoji{
+margin: 10px;
+display: inline-block;
+width: 100%;
+}
+
+.subEmoji{
+  font-size: 80px;
+  display: inline-block;
+  margin-left: 50px;
+  height: 150px;
+  width: 110px;
+}
+.subEmoji:hover{
+  height: 150px;
+  width: 110px;
+  background-color: rgb(94, 158, 61);
+  border-radius: 20px;
+  animation:pulse;
+  animation-duration:2s;
+  color: #F3F3F3;
+  box-shadow: 10px 5px 5px 5px #e6d8be;
+}
+
+.subEmoji h3{
+  font-size: medium;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* New Product Details */
+
+.ProductDetail{
+  height: auto;
+ /* box-shadow: 10px 10px 10px 10px rgb(199, 215, 108);*/
+  margin-top: 15px;
+  text-align: center;
+  width: 100%;
+}
+
+.card h2{
+  margin: 5px;
+}
+.card h4{
+  margin-top: 10px;
+}
+
+.text-uppercase{
+  font-size: large;
+  text-align: center;
+ 
+}
+.text-primary {
+  font-size: large;
+  text-align: center;
+}
+
+.SubCard{
+  width: 100%;
+  height: auto;
+}
+
+.Sub{
+  height: 400px;
+  width: 200px;
+ /* background-color: #FFA500;*/
+  align-items: center;
+  display: inline-block;
+  padding-top: 20px;
+  padding-right: 40px;
+  border-radius: 20px 0px 20px 0px;
+  box-shadow:  2px 5px 5px rgb(68, 67, 67);
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.Sub:hover{
+  height: 400px;
+  width: 200px;
+  background-color: rgb(94, 158, 61);
+  border-radius: 40px 40px 40px 40px;
+  animation:pulse;
+  animation-duration:2s;
+  color: #F3F3F3;
+  box-shadow: 10px 5px 5px 5px #e6d8be;
+}
+
+
+.card{
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+
+/* Offer Product Section */
+.container-fluid{
+  width: 100%;
+  height: 600px;
+  margin: 10px;
+  background-image: url(Img/offer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text-dark{
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  padding-top: 40px;
+}
+.display{
+margin: 10px;
+color: white;
+text-transform: uppercase;
+width: 45%;
+padding: 20px;
+}
+.textwhite{
+  width: 45%;
+  padding: 20px;
+  margin: 10px;
+  width: 50%;
+}
+
+.btnlight{
+  margin-top: 50px;
+  margin-left: 20px;
+  padding: 15px 32px;
+  background-color: transparent;
+  padding: 20px;
+  display: inline-block;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  border: 2px solid #F3F3F3;
+}
+
+.btnoutline{
+  margin-top: 50px;
+  margin-left: 20px;
+  padding: 15px 32px;
+  background-color: transparent;
+  padding: 20px;
+  display: inline-block;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  border: 2px solid #F3F3F3;
+}
+.btnlight:hover{
+  border-radius: 20px 0px 20px 0px;
+  color: #F3F3F3;
+}
+
+.btnoutline:hover{
+  border-radius: 20px 0px 20px 0px;
+  color: #F3F3F3;
+}
+
+/* Feature Product Section */
+
+.FeatureProduct{
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  
+}
+
+.grid{
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+.main{
+  width: 98%;
+ /* background-color: yellowgreen;*/
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  
+ /* margin-right: 40px;*/
+}
+.sub{
+  height: 300px;
+
+ /* background-color: violet;*/
+ 
+}
+
+.sub1{
+  grid-column-start: 1;
+  grid-column-end: 3;
+ /* grid-row-start: 1;
+  grid-row-end: 3;
+  height:600px;*/
+}
+
+/* Customer Review */
+
+.CustomerReview{
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+}
+.cutCard{
+  width: 90%;
+  height: auto;
+  margin-top: 10px;
+ /* background-color: dodgerblue;*/
+  padding: 20px;
+  box-shadow: 20px 10px 5px 5px #F3F3F3;
+}
+
+.a p{
+  text-align: justify;
+  /*background-color: aqua;*/
+  width: 55%;
+  padding: 5px;
+  margin-left: 50px;
+}
+ .b{
+
+position: relative;
+left: 350px;
+bottom: 130px;
+height: 20px;
+}
+ .b img{
+width: 150px;
+  height: 150px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+/* Form Section */
+form {
+    width: 450px;
+    background-color: white;
+    box-shadow: 0 0 20px 0 rgb(213, 212, 210);
+    margin: auto;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+  }
+  .inp_box {
+    width: 350px;
+    height: 37px;
+    /* margin-top: 20px; */
+    margin: 25px 45px 0 45px;
+    padding: 0 10px;
+    border-radius: 14px;
+    border: 1px solid #777;
+    outline: none;
+  }
+  .title1 {
+    color: #373333;
+    margin-bottom: 30px;
+    padding: 50px 0 30px 0;
+    text-align: center;
+  }
+  
+  .text_area {
+    height: 160px;
+    padding-top: 10px;
+  }
+  .btn2 {
+    border-radius: 20px;
+    margin: 20px 45px;
+    padding: 0 10px;
+    /* margin: auto; */
+    width: 30%;
+  }
+  textarea {
+    height: 150px;
+    padding-top: 10px;
+  }
+  .btn2 {
+    border-radius: 15px;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px;
+  }
+  button {
+    background-color: rgb(22, 22, 94);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: rgb(94, 158, 61);
+  }
+  
